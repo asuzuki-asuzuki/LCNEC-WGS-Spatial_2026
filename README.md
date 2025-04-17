@@ -1,2 +1,2 @@
 # LCNEC_2025
-LCNEC project
+In this study, we performed whole-genome sequencing (WGS) and spatial omics analysis of 34 lung high-grade neuroendocrine carcinomas (HGNECs) including large cell neuroendocrine carcinomas (LCNECs) to newly conduct molecular-based case classification of LCNECs. We analyzed long- and short-read WGS data of 21 LCNEC cases. We also performed spatial trnascriptome analysis Xenium and Visium for 34 LCNEC and small cell lung carcinoma cases.
