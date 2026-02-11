@@ -33,7 +33,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 - [Monocle3_3.R](./Monocle3_3.R): generating plots.
 
 ### Cellular niche analysis
-Preproceccing
+<I>Preproceccing</I>
 - [Xenium_Seurat_extract_ID2annotation_subannotation.R](./Xenium_Seurat_extract_ID2annotation_subannotation.R): extraction of cell type annotation and subannotation in each cell.
 - [Xenium_Seurat_extract_ID2annotation_subannotation_list.pl](./Xenium_Seurat_extract_ID2annotation_subannotation.pl): extraction of cell type annotation and subannotation in each cell for each sample.
 - [Xenium_Seurat_annotation.R](./Xenium_Seurat_annotation.R): setting annotation and subannotation of each cell in each sample's object.
