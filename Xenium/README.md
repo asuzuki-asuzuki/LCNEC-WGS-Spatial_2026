@@ -20,6 +20,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 - [Xenium_Seurat_merge_featureplot.R](./Xenium_Seurat_merge_featureplot.R): maker gene expression (raw count) on the UMAP plot in the sketch and full data.
 - [Xenium_Seurat_merge_sketch_ProjectData_annotation.R](./Xenium_Seurat_merge_sketch_ProjectData_annotation.R): set cell type annotation in each cluster.
 
+
 ### Analysis of epithelial cells
 - [Xenium_Seurat_sub_sketch.R](./Xenium_Seurat_sub_sketch.R): basic analysis of epithelial sub-clusters by Seurat.
 - [Xenium_Seurat_sub_sketch_FindMarkers.R](./Xenium_Seurat_sub_sketch_FindMarkers.R): extraction of DEGs in each cluster using the sketch data.
@@ -27,10 +28,12 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 - [Xenium_Seurat_VlnPlot_limit.R](./Xenium_Seurat_VlnPlot_limit.R): ASCL1, ASCL2 and YAP1 expression on violin plots in each cell sub-clusters.
 - [Xenium_Seurat_count_ASCL1_ASCL2_YAP1.R](./Xenium_Seurat_count_ASCL1_ASCL2_YAP1.R): counting ASCL1, ASCL2 and YAP1-positive cells in tumor cells.
 
+
 ### Trajectory analysis of epithelial cells
 - [Monocle3_1.R](./Monocle3_1.R): consrtucting trajectories by Monocle 3.
 - [Monocle3_2.R](./Monocle3_2.R): calculating pseudotime and generating plots.
 - [Monocle3_3.R](./Monocle3_3.R): generating plots.
+
 
 ### Cellular niche analysis
 #### Preproceccing
