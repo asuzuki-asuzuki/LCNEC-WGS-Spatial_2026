@@ -2,7 +2,6 @@
 
 ## Requirements
 R (>=4.0; tested with 4.3.2)  
-Python (3.7 or later)  
 
 The following R packages are required.
 1. Seurat (v5.0.3)
