@@ -21,4 +21,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 
 ### Analysis of epithelial cells
 - [Xenium_Seurat_sub_sketch.R](./Xenium_Seurat_sub_sketch.R): basic analysis of epithelial sub-clusters by Seurat.
+- [Xenium_Seurat_sub_sketch_FindMarkers.R](./Xenium_Seurat_sub_sketch_FindMarkers.R): extraction of DEGs in each cluster using the sketch data.
 - [Xenium_Seurat_sub_sketch_ProjectData_subannotation.R](./Xenium_Seurat_sub_sketch_ProjectData_subannotation.R): projection full merged data to the sketch data and set cell subtype annotation in each cluster.
+- [Xenium_Seurat_VlnPlot_limit](./Xenium_Seurat_VlnPlot_limit): ASCL1, ASCL2 and YAP1 expression on violin plots in each cell sub-clusters.
+
