@@ -1,4 +1,4 @@
-# Analysis of public data from the previous studies
+# Analysis of public data from the previous study
 
 ## Requirements
 R (>=4.0; tested with 4.3.2)  
