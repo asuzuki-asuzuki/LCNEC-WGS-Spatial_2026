@@ -25,6 +25,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 - [Xenium_Seurat_sub_sketch_FindMarkers.R](./Xenium_Seurat_sub_sketch_FindMarkers.R): extraction of DEGs in each cluster using the sketch data.
 - [Xenium_Seurat_sub_sketch_ProjectData_subannotation.R](./Xenium_Seurat_sub_sketch_ProjectData_subannotation.R): projection full merged data to the sketch data and set cell subtype annotation in each cluster.
 - [Xenium_Seurat_VlnPlot_limit.R](./Xenium_Seurat_VlnPlot_limit.R): ASCL1, ASCL2 and YAP1 expression on violin plots in each cell sub-clusters.
+- [Xenium_Seurat_count_ASCL1_ASCL2_YAP1.R](./Xenium_Seurat_count_ASCL1_ASCL2_YAP1.R): counting ASCL1, ASCL2 and YAP1-positive cells in tumor cells.
 
 ### Trajectory analysis of epithelial cells
 - [Monocle3_1.R](./Monocle3_1.R): consrtucting trajectories by Monocle 3.
