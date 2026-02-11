@@ -41,7 +41,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 
 <I>Niche analysis for all samples</I><br>
 - [Xenium_Seurat_merge_TME.R](./Xenium_Seurat_merge_TME.R): merging Seurat objects with the niche matrix of all samples.
-- [niche_merge_TME.R](./niche_nerge_TME.R): niche analysis for all samples.
+- [niche_merge_TME.R](./niche_merge_TME.R): niche analysis for all samples.
 
 
 
