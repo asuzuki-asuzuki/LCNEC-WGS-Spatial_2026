@@ -5,6 +5,7 @@ R (>=4.0; tested with 4.3.2)
 
 The following R packages are required.
 1. Seurat (v5.0.3)
+2. Monocle 3 (v1.3.7)
 
 It generally takes only several tens of minutes for installlation of these packages.  
 For conducting analyses, it usually takes short time but sometimes it takes several hours depending on the number of samples. Memory requirements depend on the data size.
@@ -23,5 +24,15 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 - [Xenium_Seurat_sub_sketch.R](./Xenium_Seurat_sub_sketch.R): basic analysis of epithelial sub-clusters by Seurat.
 - [Xenium_Seurat_sub_sketch_FindMarkers.R](./Xenium_Seurat_sub_sketch_FindMarkers.R): extraction of DEGs in each cluster using the sketch data.
 - [Xenium_Seurat_sub_sketch_ProjectData_subannotation.R](./Xenium_Seurat_sub_sketch_ProjectData_subannotation.R): projection full merged data to the sketch data and set cell subtype annotation in each cluster.
-- [Xenium_Seurat_VlnPlot_limit](./Xenium_Seurat_VlnPlot_limit): ASCL1, ASCL2 and YAP1 expression on violin plots in each cell sub-clusters.
+- [Xenium_Seurat_VlnPlot_limit.R](./Xenium_Seurat_VlnPlot_limit.R): ASCL1, ASCL2 and YAP1 expression on violin plots in each cell sub-clusters.
+
+### Trajectory analysis of epithelial cells
+- [Monocle3_1.R](./Monocle3_1.R): consrtucting trajectories by Monocle 3.
+- [Monocle3_2.R](./Monocle3_2.R): calculating pseudotime and generating plots.
+- [Monocle3_3.R](./Monocle3_3.R): generating plots.
+
+
+
+
+
 
