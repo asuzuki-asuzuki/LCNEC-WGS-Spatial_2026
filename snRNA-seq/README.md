@@ -18,7 +18,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 
 ### Basic analysis of snRNA-seq data in all samples
 - [scRNA_Seurat_merge.R](./scRNA_Seurat_merge.R): merging Seurat objects of all samples.
-- [scRNA_Seurat_merge_harmony.R](./scRNA_Seurat_harmony.R): Harmony integration of all samples.
+- [scRNA_Seurat_merge_harmony.R](./scRNA_Seurat_merge_harmony.R): Harmony integration of all samples.
 - [scRNA_Seurat_marker_ADAMTS.R](./scRNA_Seurat_marker_ADAMTS.R): Visualization of ADAMTS family gene expressions.
 
 ### Trajectory analysis
