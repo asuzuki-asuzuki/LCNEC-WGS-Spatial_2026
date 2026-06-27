@@ -3,7 +3,7 @@ library(dplyr)
 library(patchwork)
 library(ggplot2)
 
-options(future.globals.maxSize = 100 * 1024^3) # 100 Gb
+options(future.globals.maxSize = 100 * 1024^3) 
 set.seed(1234)
 
 packageVersion("Seurat")
