@@ -26,7 +26,7 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 - [Monocle3_1_Xenium_5k.R](./Monocle3_1_Xenium_5k.R): consrtucting trajectories by Monocle 3.
 - [Monocle3_2_Xenium_5k.R](./Monocle3_2_Xenium_5k.R): calculating pseudotime and generating plots.
 
-### Cell-cell communications
+### Cell-cell communication inference
 - [CellChat_Xenium_5k](./CellChat_Xenium_5k.R): extraction of ligand-receptor interactions by CellChat.
 - [CellChat_vis_Xenium_5k](./CellChat_vis_Xenium_5k.R): generating plots.
 
