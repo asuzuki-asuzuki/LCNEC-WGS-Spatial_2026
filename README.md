@@ -10,4 +10,4 @@ In this study, we performed whole-genome sequencing (WGS) and spatial omics anal
 - [Public_Data](./Public_Data): Analysis of public datasets.
 
 ### Cell lines with siRNA knockdown assays
-- [Flex](./Xenium_5k): Analysis of Flex scRNA-seq datasets.
+- [Flex](./Flex): Analysis of Flex scRNA-seq datasets.
