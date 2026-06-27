@@ -12,6 +12,10 @@ For conducting analyses, it usually takes short time but sometimes it takes seve
 
 ## Analysis
 ### Basic analysis of Xenium data
-- [Xenium_k_Seurat.R](./Xenium_5k_Seurat.R): basic analysis (dimentional reduction, clustering, etc.) by Seurat in each sample.
+- [Xenium_5k_Seurat.R](./Xenium_5k_Seurat.R): basic analysis (dimentional reduction, clustering, etc.) by Seurat in each sample.
 - [Xenium_5k_Seurat_marker_basic.R](./Xenium_5k_Seurat_marker_basic.R): visualization of ASCL1/NEUROD1/POU2F3/YAP1 expression patterns by Seurat in each sample.
 - [Xenium_5k_Seurat_merge.R](./Xenium_5k_Seurat_merge.R): merging Seurat objects of all samples.
+- [Xenium_5k_Seurat_merge_sketch.R](./Xenium_5k_Seurat_merge_sketch.R): subsampling the cells and creating the sketch data.
+- [Xenium_5k_Seurat_merge_sketch_ProjectData.R](./Xenium_5k_Seurat_merge_sketch_ProjectData.R): projection full merged data to the sketch data.
+- [Xenium_5k_Seurat_merge_sketch_FindMarkers.R](./Xenium_5k_Seurat_merge_sketch_FindMarkers.R): extraction of DEGs in each cluster using the sketch data.
+- [Xenium_5k_Seurat_merge_sketch_ProjectData_annotation.R](./Xenium_5k_Seurat_merge_sketch_ProjectData_annotation.R): set cell type annotation in each cluster.
