@@ -34,5 +34,8 @@ For conducting analyses, it usually takes short time (up to several hours). Memo
 - [Slingshot_2.R](./Slingshot_2.R): calculating pseudotime and generating plots.
 - [Slingshot_3.R](./Slingshot_3.R): generating plots for a sample.
 
+### Cell-cell communication inference
+- [CellChat_Visium](./CellChat_Visium.R): extraction of ligand-receptor interactions by CellChat.
+- [CellChat_vis_Visium](./CellChat_vis_Visium.R): generating plots.
 
 
