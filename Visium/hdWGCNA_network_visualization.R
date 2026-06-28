@@ -15,12 +15,14 @@ packageVersion("hdWGCNA")
 lung <- readRDS("lung_hdwgcna.rds")
 lung
 
+lung@misc$vis$wgcna_net$TOMFiles <- "<PATH>/TOM/hdwgcna_TOM.rda"
+
 # UMAP for network modules
 lung <- RunModuleUMAP(lung, n_hubs = 3, n_neighbors=15, min_dist=0.3, spread=1)
 
 # Module UMAP plot
 pdf("networkplot.pdf")
-ModuleUMAPPlot(lung, edge.alpha=0.5, sample_edges=TRUE, keep_grey_edges=FALSE, edge_prop=0.075, label_hubs=3)
+ModuleUMAPPlot(lung, edge.alpha=0.5, sample_edges=TRUE, keep_grey_edges=FALSE, edge_prop=0.075, label_hubs=0)
 dev.off()
 
 pdf("networkplot_2.pdf")
