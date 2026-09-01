@@ -28,13 +28,6 @@ for(i in case$Case) {
       data[[i]] <- netAnalysis_computeCentrality(data[[i]], slot.name = "netP")
 }
 
-# Merging the CellChat objects
-cellchat <- mergeCellChat(data, add.names = names(data))
-cellchat <- liftCellChat(cellchat, unique(unlist(cellchat@idents)))
-
-# Save a merged object
-saveRDS(cellchat, "cellchat/merge_cellchat.rds")
-
 # Set colors
 COL <- c("blue", "red", "pink", "#FF4FB5", "black", "green", "purple", "brown", "orange", "yellow", "grey")
 names(COL) <- c("NE tumor", "Non-NE tumor", "Tumor", "Alveolar", "Bronchiolar", "Basal", "Macrophage", "Plasma cell", "Fibroblast", "Endothelial cell", "Others")
