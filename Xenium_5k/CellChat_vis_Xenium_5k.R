@@ -28,13 +28,6 @@ for(i in case$Case) {
       data[[i]] <- netAnalysis_computeCentrality(data[[i]], slot.name = "netP")
 }
 
-# Merging the CellChat objects
-cellchat <- mergeCellChat(data, add.names = names(data))
-cellchat <- liftCellChat(cellchat, unique(unlist(cellchat@idents)))
-
-# Save a merged object
-saveRDS(cellchat, "cellchat/merge_cellchat.rds")
-
 # Set colors for merge_annotation
 COL <- DiscretePalette(14, palette = "glasbey", shuffle = FALSE)
 COL2 <- c(COL[1:13], "brown", COL[14])
